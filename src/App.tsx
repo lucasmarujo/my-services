@@ -1,6 +1,6 @@
 // import React from 'react';
 import adapitfy from './images/adapitfy.png'
-import lumark from './images/lumark-profile.png'
+import profileimg from './images/profile.jpg'
 import packia from './images/packia.png'
 import { Github } from 'lucide-react';
 
@@ -27,14 +27,14 @@ function App() {
       {/* Profile Section */}
       <main className="flex-grow container mx-auto px-4 py-8">
         <div className="flex flex-col items-center mb-8">
-          <div className="w-[90px] h-[90px] rounded-full border-2 border-green-500 overflow-hidden mb-2">
+          <div className="w-[90px] h-[90px] rounded-full border-2 border-blue-500 overflow-hidden mb-2">
             <img
-              src={lumark}
+              src={profileimg}
               alt="Profile"
               className="w-full h-full object-cover"
             />
           </div>
-          <h2 className="text-lg font-medium text-gray-800">@lumark.ia</h2>
+          <h2 className="text-lg font-medium text-gray-800">@lucas.marujo</h2>
         </div>
 
         {/* Products Grid */}
@@ -69,7 +69,7 @@ function App() {
       <footer className="bg-white border-t border-gray-200 py-6">
         <div className="container mx-auto px-4 flex flex-col sm:flex-row justify-between items-center">
           <p className="text-gray-600 text-sm">
-            © {new Date().getFullYear()} All rights reserved
+            © {new Date().getFullYear()} Todos direitos reservados. Desenvolvido por Lucas Marujo
           </p>
           <a
             href="https://github.com/lucasmarujo"
@@ -85,5 +85,4 @@ function App() {
     </div>
   );
 }
-
 export default App;

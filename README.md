@@ -1,7 +1,7 @@
 # Lumark.IA - Página de Vendas
 
 <p align="center">
-  <img src="./src/images/lumark-profile.png" alt="Lumark.IA Logo" width="100" height="100" style="border-radius: 50%;">
+  <img src="./src/images/profile.jpg" alt="Lumark.IA Logo" width="100" height="100" style="border-radius: 50%;">
 </p>
 
 ## 📱 Sobre o Projeto
